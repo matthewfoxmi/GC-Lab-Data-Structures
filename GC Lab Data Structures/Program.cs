@@ -1,13 +1,13 @@
 ﻿using System.Collections;
 
 //ask user for input, store input in a string
-Console.WriteLine("Enter a string");
+Console.WriteLine("Enter a word");
 string input = Console.ReadLine();
 
-Console.WriteLine(reverse(input));
+Console.WriteLine("Your word in reverse is: " + reverse(input));
 
 
-//method
+//methodpas
 //create a stack, add into stack, take everything out and reverse
 
 static string reverse(string word)
